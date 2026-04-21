@@ -41,6 +41,8 @@ Based on modern development standards, this project utilizes a high-performance 
 │   └── main.py         # API Gateway for communication
 ├── data/               # Scientific PDF repository (FAO, APS)
 └── .env                # Secure API Key management
+\
+
 📖 Methodology (The RAG Process)
 Document Ingestion: High-authority PDFs (like the Compendium of Potato Diseases) are processed and indexed.
 
