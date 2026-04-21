@@ -30,6 +30,15 @@ Based on modern development standards, this project utilizes a high-performance 
 
 ---
 
+## 📖 Methodology (The RAG Process)
+Document Ingestion: High-authority PDFs (like the Compendium of Potato Diseases) are processed and indexed.
+
+User Query: A farmer uploads a photo or asks a question.
+
+Retrieval: The system searches the indexed scientific data for relevant symptoms and treatments.
+
+Generation: Gemini synthesizes the "User Image" + "Scientific Data" to provide a precise diagnosis.
+
 ## 📂 Project Structure
 
 ```text
@@ -44,11 +53,3 @@ Based on modern development standards, this project utilizes a high-performance 
 
 
 
-## 📖 Methodology (The RAG Process)
-Document Ingestion: High-authority PDFs (like the Compendium of Potato Diseases) are processed and indexed.
-
-User Query: A farmer uploads a photo or asks a question.
-
-Retrieval: The system searches the indexed scientific data for relevant symptoms and treatments.
-
-Generation: Gemini synthesizes the "User Image" + "Scientific Data" to provide a precise diagnosis.
